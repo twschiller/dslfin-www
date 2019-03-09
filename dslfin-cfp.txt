@@ -1,0 +1,90 @@
+CALL FOR PAPERS
+Workshop on Domain-Specific Languages for Financial Systems (DSLFIN)
+=========================================================
+
+Co-located with MODELS 2013 
+1 October 2013, Miami, Florida - USA
+http://www.dslfin.org
+
+== Overview
+
+The recent financial crisis has renewed the financial industry's focus
+on transparency and risk management.  With the accompanying broadened
+regulatory scope, a new set of stakeholders have arrived at the
+financial services table, each of which has a different viewpoint,
+mission, skill set, and terminology.  Domain-specific languages (DSLs)
+tailored to specific problems have proven to be effective in financial
+systems in the past, drawing on advancements in functional languages,
+ontology languages, and business process and rule modeling languages.
+However, with the rapid increase in the complexity of regulatory
+regimes, ad-hoc languages are becoming less effective; thus the
+principled design, evolution, and maintenance of financial DSLs are
+more important than ever before.
+
+We invite participation in a workshop bringing together software
+architects, engineers, and researchers in the financial services
+domain who are working with domain-specific languages (DSLs) and with
+frameworks for creating and managing DSLs.
+
+The workshop will take place as part of the ACM/IEEE 16th
+International Conference on Model Driven Engineering Languages and
+Systems (MODELS 2013).
+
+== Topics of Interest 
+
+- Financial language development, evolution, and maintenance
+- Modelling frameworks and language workbenches
+- Tradeoffs between individual DSLs and the use of DSL frameworks and
+  workbenches
+- Testing, verification, and debugging
+- Language semantics
+- Language usability and adoption
+- Industry standards and regulation
+
+A listing of financial DSLs along with papers and presentations
+covering these topics can be found on the workshop website:
+http://www.dslfin.org/resources.html.
+
+== Call for Participation
+
+Experience reports and position papers of up to 10 pages are
+sought for presentation and discussion at the workshop. Additionally,
+we seek 3-6 page abstracts for short talks to be given at the
+workshop. Contributions will be formally reviewed for originality,
+relevance, and the potential to generate interesting discussions. 
+
+Authors of accepted papers will have the option to publish their paper
+in the CEUR workshop proceedings, which is indexed by DBLP. All
+contributions must be in English, in PDF format, using the Springer
+LNCS format.
+
+Submission Website: https://www.easychair.org/conferences/?conf=dslfin1
+
+== Important Dates
+
+Paper Submission:  15 July 2013
+Author Notification:  23 August 2013
+Workshop:  1 October 2013
+
+== Organizers
+
+- Magnus Christerson, Intentional Software
+- David Frankel, David Frankel Consulting
+- Todd Schiller, University of Washington
+
+== Program Committee
+
+- Matthias Anlauf, SAP 
+- Lennart Augustsson, Standard Chartered Bank
+- Yves Bontemps, SWIFT
+- Cory Casanave, Model-Driven Solutions
+- Jean-Marc Eber, LexiFi
+- Jack Greenfield, Paypal
+- Sridhar Iyengar, IBM
+- Philipp Kutter, Montages AG
+- Brendan McCarthy, American Express
+- Lee Momtahan, Centrica
+- Matthew Rawlings, UBS
+- Bran Selic, Simula Research Laboratory
+- Harsh Sharma, Citi
+

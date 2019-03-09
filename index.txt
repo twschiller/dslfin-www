@@ -1,0 +1,79 @@
+:page-title: Domain-Specific Languages for Financial Systems (DSLFIN) Workshop
+:description:  The DSLFIN Workshop on Domain-Specific Languages for Financial Systems.
+:keywords:  finance, trading, domain specific languages, domain-specific languages, DSLs, programming, conference, workshop
+
+The Domain-Specific Languages for Financial
+Systems (DSLFIN) 2013 workshop was held on 1 October 2013 in
+Miami, Florida in association with the
+http://modelsconference.org[ACM/IEEE 16th International Conference on
+Model Driven Engineering Languages and Systems (MODELS 2013)].
+
+TIP: The workshop took place on 1 October 2013. You can find videos of
+ the presentations below. We encourage you to visit the
+ link:community.html[community page] to join the workshop mailing list
+ and to be notified of upcoming financial DSL events. A comprehensive listing of
+ financial DSLs resources can be found on the
+ link:resources.html[resources page].
+
+[caption=""] 
+image::images/models-logo.jpg[width=160, align="center"]
+
+[[program]]
+== 2013 Workshop Program
+
+*Keynote: Jean-Marc Eber, Founder and CEO of http://lexifi.com[LexiFi]*
+
+* Beyond Valuation: Past, Present and Future of Domain Specific
+Languages for Finance Applications: _Ten Years of DSL Development,
+Client Interaction, and Market Feedback at LexiFi_  + 
++[link:slides/eber-dslfin-keynote.pdf[Slides]]+ +[link:https://www.youtube.com/watch?v=yUW3sZdyQhM&index=6&list=PLA1VQCh5LmDd7kT1QTv6LH9OBJLuPBfpZ[Video]]+
+
+*Technical Program*
+
+* Financial Document Workbench +
+_Mats Helander, Intentional Software_ +
++[link:https://www.youtube.com/watch?v=FC6UuVsLj5w&list=SPA1VQCh5LmDd7kT1QTv6LH9OBJLuPBfpZ&index=1[Video]]+
+
+* Visual Domain Specific Languages for Actuarial Models: An Industrial
+Experience Report +
+_Aamir Mohammad and Peter Phillips, Aon Benfield Securities_ +
++[link:slides/mohammad-dslfin-actuarial.pdf[Slides]]+ +[link:https://www.youtube.com/watch?v=VMhrQOw1SKc&list=SPA1VQCh5LmDd7kT1QTv6LH9OBJLuPBfpZ&index=4[Video]]+
+
+* Delite: A Compiler Framework for High-Performance Embedded DSLs + 
+_Tiark Rompf et al., EPFL_ +
++[link:https://www.youtube.com/watch?v=IN9kkVUf9PU&list=SPA1VQCh5LmDd7kT1QTv6LH9OBJLuPBfpZ&index=2[Video]]+
+
+* YADSL - ISO-20022 from Java to Excel + 
+_John Davies, C24_ +
++[link:slides/davies-dslfin-yadsl.pdf[Slides]]+ +[link:https://www.youtube.com/watch?v=uUm3X0vQjYU&list=SPA1VQCh5LmDd7kT1QTv6LH9OBJLuPBfpZ&index=3[Video]]+
+
+* Testing Financial Applications with RUGE + 
+_Brendan McCarthy, American Express_ +
++[link:slides/mccarthy-dslfin-ruge.pptx[Slides]]+
+
+[[organizers]]
+== Organizers
+
+- mailto:magnus@intentsoft.com[Magnus Christerson] (Intentional Software)
+- mailto:david@dfrankelconsulting.com[David Frankel] (David Frankel Consulting)
+- mailto:tschiller@finlingua.com[Todd Schiller] (FinLingua, University of Washington)
+
+[[committee]]
+== Program Committee
+
+ - Matthias Anlauf (SAP) 
+ - Lennart Augustsson (Standard Chartered Bank)
+ - Yves Bontemps (SWIFT)
+ - Cory Casanave (Model-Driven Solutions)
+ - Jean-Marc Eber (LexiFi)
+ - Jack Greenfield (Paypal)
+ - Sridhar Iyengar (IBM)
+ - Philipp Kutter (Montages AG)
+ - Brendan McCarthy (American Express)
+ - Lee Momtahan (Centrica)
+ - Matthew Rawlings (UBS)
+ - Bran Selic (Simula Research Laboratory)
+ 
+
+
+

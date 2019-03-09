@@ -1,0 +1,104 @@
+:page-title: Call for Papers: Domain-Specific Languages for Financial Systems (DSLFIN) Workshop
+:description:  The DSLFIN Workshop on Domain-Specific Languages for Financial Systems. To be held on October 1, 2013 in Miami, Florida.
+:keywords:  finance, trading, domain specific languages, domain-specific languages, DSLs, programming, conference, workshop, call for papers
+
+= 2013 DSLFIN Call for Participation
+
+IMPORTANT: The submission deadline for 2013 has passed. Workshop
+registration is available at the
+http://models2013.lcc.uma.es/registration.html[MODELS conference
+website]; the DSLFIN workshop is included in the satellite event
+registration.
+
+[[overview]]
+== Overview
+
+The recent financial crisis has renewed the financial industry’s focus
+on transparency and risk management.  With the accompanying broadened
+regulatory scope, a new set of stakeholders have arrived at the
+financial services table, each of which has a different viewpoint,
+mission, skill set, and terminology.  Domain-specific languages (DSLs)
+tailored to specific problems have proven to be effective in financial
+systems in the past, drawing on advancements in functional languages,
+ontology languages, and business process and rule modeling languages.
+However, with the rapid increase in the complexity of regulatory
+regimes, ad-hoc languages are becoming less effective; thus the
+principled design, evolution, and maintenance of financial DSLs are
+more important than ever before.
+
+We invite participation in a workshop bringing together software
+architects, engineers, and researchers in the financial services
+domain who are working with domain-specific languages (DSLs) and with
+frameworks for creating and managing DSLs. 
+
+=== Topics of Interest
+
+- Financial language development, evolution, and maintenance
+- Modelling frameworks and language workbenches
+- Tradeoffs between individual DSLs and the use of DSL frameworks and workbenches
+- Testing, verification, and debugging
+- Language semantics
+- Language usability and adoption
+- Industry standards and regulation
+
+A listing of financial DSLs, as well as papers and
+presentations can be found on the
+http://www.dslfin.org/resources.html[resources page].
+
+[[cfp]]
+== Call for Participation
+
+http://www.dslfin.org/dslfin-cfp.txt[Call for Papers (TXT)]
+
+Experience reports, research papers, and position papers of __up to 10 pages__ are
+sought for presentation and discussion at the workshop. Contributions
+will be formally reviewed for originality, relevance, and the
+potential to generate interesting discussions.
+
+Authors of accepted papers will have _the option_ to publish their
+paper in the http://ceur-ws.org/[CEUR] workshop proceedings, which is
+indexed by http://www.informatik.uni-trier.de/~ley/db/[DBLP]. All
+contributions must be in English, in PDF format, using the
+https://www.springer.com/computer/lncs?SGWID=0-164-6-793341-0[Springer
+LNCS format].
+
+=== Talk Abstracts
+
+For those interested in contributing without the time commitment of
+writing a full paper, we additionally seek abstracts for short talks
+to be given at the workshop; abstracts should be 3-6 pages long
+formatted using the
+https://www.springer.com/computer/lncs?SGWID=0-164-6-793341-0[Springer
+LNCS format] (which is roughly equivalent to 2-3 pages of standard
+writing, due to the large margins of the LNCS format).
+
+[[dates]]
+== Important Dates
+
+- Paper Submission:   -15 July 2013- *22 July 2013*
+- Author Notification:        23 August 2013
+- Workshop:            1 October 2013
+
+[[organizers]]
+== Organizers
+
+- mailto:magnus@intentsoft.com[Magnus Christerson] (Intentional Software)
+- mailto:david@dfrankelconsulting.com[David Frankel] (David Frankel Consulting)
+- mailto:tschiller@finlingua.com[Todd Schiller] (University of Washington, FinLingua)
+
+[[committee]]
+== Program Committee
+
+ - Matthias Anlauf (SAP) 
+ - Lennart Augustsson (Standard Chartered Bank)
+ - Yves Bontemps (SWIFT)
+ - Cory Casanave (Model-Driven Solutions)
+ - Jean-Marc Eber (LexiFi)
+ - Jack Greenfield (Paypal)
+ - Sridhar Iyengar (IBM)
+ - Philipp Kutter (Montages AG)
+ - Brendan McCarthy (American Express)
+ - Lee Momtahan (Centrica)
+ - Matthew Rawlings (UBS)
+ - Bran Selic (Simula Research Laboratory)
+ 

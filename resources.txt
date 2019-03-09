@@ -1,0 +1,489 @@
+:page-title: Financial Domain-Specific Language Listing and Resources
+:description:  A listing of financial domain-specific languages, research papers, presentations, and other resources.
+:keywords:    finance, financial, trading, domain specific languages, domain-specific languages, DSLs, listing, resources, papers, talks, websites
+
+[[resources]]
+== Financial Domain-Specific Language Listing
+
+The goal of this page is to provide a comprehensive listing of
+financial domain-specific languages and resources. Please send additional
+resource suggestions to mailto:tschiller@finlingua.com[Todd Schiller].
+
+=== Actulus Modeling Language (AML)
+
+The goal of the Actulus project is to "establish a platform for definition of
+advanced life insurance and pension products and for efficient
+computations on them." Actulus is a joint effort between the the IT
+University of Copenhagen and Edlund A/S. The project uses QuantAlea
+(see below) for GPU kernel creation.
+
+ - http://www.diku.dk/~grue/papers/aml/aml.pdf[An Actuarial Programming Language
+    for Life Insurance and Pensions]. David R. Christiansen, Klaus
+    Grue, Henning Niss, Peter Sestoft, Kirstjan S. Sigtryggsson. 2013.
+ - http://www.cse.chalmers.se/edu/year/2015/course/pfp/Sestoft.pdf[Domain-specific languages
+    and GPGPUs in life insurance and pensions]. Peter Sestoft. 2015.   
+ - https://devblogs.nvidia.com/parallelforall/gpus-dsls-life-insurance-modeling/[GPUs and DSLs for Life Insurance Modeling]. Peter Sestoft. 2016. 
+    	  
+=== Alea.cuBase (by https://www.quantalea.net[QuantAlea])
+
+Alea.cuBase is an F# framework for generating GPU kernels. It uses F#
+quotations for staging and composing kernels at
+run-time. It provides a "foundation to develop GPU aware domain
+speciﬁc languages."
+
+  - http://on-demand.gputechconf.com/gtc/2013/presentations/S3055-Dynamic-CUDA-with-F-Sharp-v3.pdf[Dynamic
+    CUDA with F#.] Dr. Daniel Egloff and Xiang Zhang. GPU Technology
+    Conference 2013.
+
+=== AxLang (by https://axoni.com/[Axoni])
+
+AxLang is a DSL embedded in Scala for writing verifiable smart contracts for Ethereum. The language includes pre- and
+post-conditions to support design-by-contract-style verification.
+
+  - https://medium.com/axoni/axlang-formally-verifiable-smart-contracts-for-the-ethereum-ecosystem-6201203be4e8[Announcement Blog Post]
+  - https://www.youtube.com/watch?v=xO7B4WYKVZE[Announcement YouTube video]
+
+=== BOScoin Trust Contracts
+
+https://boscoin.io/en/trust-contracts/[BOScoin] uses the Web Ontology
+Language (OWL) and Timed Automata Language (TAL) to encode contracts
+on a blockchain.
+
+=== CPL: Chart Pattern Language
+
+ - http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.21.6892&rep=rep1&type=pdf[Charting
+   Patterns on Price History]. Saswat Anand, Wei-Ngan Chin and
+   Siau-Cheng Khoo. ICFP '01: International Conference on Functional
+   Programming. 2001.
+
+ - http://cs.stanford.edu/people/saswat/research/one.pdf[CPL: A Language
+for Programming Chart Patterns]. Saswat Anand. Masters Thesis. 2002.
+
+ - http://pauillac.inria.fr/~naxu/research/dsel.pdf[The Art of
+Interpretation for Domain-Specifc Embedded Languages]. Saswat Anand,
+Siau-Cheng Khoo, Dana N. Xu, and Ping Zhu.
+
+=== DAML: Digital Asset Modeling Language
+
+The Digital Asset Modeling Language (DAML) is a "Haskell-inspired
+functional programming language" that "provide[s] a new, verifiable
+way for parties to a transaction to prove updates to a distributed
+ledger while preserving data confidentiality. DAML codifies rights and
+obligations in a similar manner to traditional legal contracts and
+workflows, and is more easily interpretable by a non-technical
+audience than most programming languages."
+
+- https://digitalasset.com/press/introducing-daml.html[DAML press release]
+
+[[diesel]]
+=== DIESEL (by http://www.edftrading.com/[EDF Trading])
+
+DIESEL is a language for representing energy derivatives to facilitate
+Monte Carlo pricing and analytics. The DSL consists of a combinator
+parser libary and algebraic data types with case classes.
+
+  - http://vimeo.com/6702641[Scala at EDF Trading. Implementing a Domain-Specific Language for Derivative Pricing with Scala.] Lee Momtahan. Commercial Users of Functional Programming (CUFP), 2009.
+
+=== EasyLanguage (by https://www.tradestation.com[TradeStation])
+
+https://www.tradestation.com/en/trading-technology/tradestation-platform/extend/easylanguage[EasyLanguage]
+is a DSL for writing trading signals and strategies for the TradeStation platform.
+
+=== ET++SwapsManager
+
+ - http://www.ubilab.org/publications/print_versions/pdf/swaps-oopsla92.pdf[Using Object Technology in the Financial Engineering Domain]. T. Eggenschwiler and E. Gamma. OOPSLA '92: Object-Oriented Programming, Systems, Languages & Applications. 1992.
+
+ - http://www.ubilab.org/publications/print_versions/pdf/bir93b.pdf[Frameworksin the Financial Engineering Domain An Experience Report]. Andreas Birrer and Thomas Eggenschwiler. ECOOP '93: European Conference on Object-Oriented Programming. 1993.
+
+=== Financial Industry Business Ontology (FIBO)
+
+The http://www.omgwiki.org/OMG-FDTF/doku.php[Financial Industry
+Business Ontology] is a joint effort by the
+http://fdtf.omg.org/[Object Management Group (OMG) Financial Domain
+Task Force] and the http://www.edmcouncil.org/[Enterprise Data
+Management (EDM) Council] to provide a semantic model of financial
+instruments and business entities. The ontology is built using the
+http://www.w3.org/RDF/[W3C Resource Description Framework (RDF)] and
+the http://www.w3.org/TR/owl-features/[OWL Web Ontology Language].
+
+=== Financial Products Markup Language (FpML)
+
+The http://www.fpml.org/[Financial Products Markup Language (FpML)] is
+an XML-based standard for the electronic dealing and processing
+over-the-counter (OTC) derivatives. FpML is developed under the
+guidance of http://www2.isda.org/[ISDA], the International Swaps and
+Derivatives Association.
+
+=== Functional Payout Framework (by http://www.barcap.com[Barclays Capital])
+
+The Functional Payout Framework (FPF) uses a DSL embedded in Haskell
+to price and manage exotic derivatives. Trade payoffs are defined
+declaratively using combinators. The trade descriptions can be used to
+automatically generate pricing instructions (e.g., parameters for
+PDE-solving), human-readable TEX descriptions, and trade input forms.
+
+ - http://dx.doi.org/10.1017/S0956796808007016[Commercial Uses: Going
+   Functional on Exotic Trades]. Simon Frankau, Diomidis Spinellis,
+   Nick Nassuphis, and Christoph Burgard. Journal of Functional
+   Programming. Volume 19, Issue 01. 2009.
+
+- http://www.infoq.com/presentations/haskell-barclays[Haskell at
+Barclays: Exotic Tools for Exotic Trades]. Tim
+Williams. Barclays. 2013. http://codemesh.io/slides/tim-williams.pdf[Slides].
+
+- Barclay's Smart Contract Templates Team, combines the FPF with blockchain technology. In January 2016,
+  Barclay's http://www.ibtimes.co.uk/barclays-selects-smart-contract-templates-internal-team-join-its-accelerator-programme-1540123[was accepted to Barclay's Accelerator program].
+
+=== Hedgehog (by http://www.palantir.com[Palantir])
+
+Palantir's
+https://docs.palantir.com/metropolis/the-hedgehog-language.html[Hedgehog
+Language] is a Java-based language for exploring financial data,
+defining metrics, and defining trading stategies.
+
+  - https://www.youtube.com/watch?v=54Vv3Os3Ep4[The Hedgehog Programming Language]. Dave Terrell and
+Eugene Marinelli. 2011.
+
+  - https://www.youtube.com/watch?v=rArSWiYOpxw[Extending Palantir's Hedgehog Language].
+Javier Lopez. 2012.
+
+=== Hyperledger Composer
+
+Hyperledger Composer is an open-source development environment and DSL for writing
+smart contracts on https://hyperledger.org/[Hyperledger] blockchains.
+
+  - https://hyperledger.github.io/composer/[Hyperledger Composer]
+  - https://www.infoq.com/articles/blockchain-poc-hyperledger[Building a Blockchain PoC in Ten Minutes Using Hyperledger Composer]. Matt Lucas, 2017.
+
+=== Imandra (by Aesthetic Integration)
+
+http://aestheticintegration.com/[Imandra] is a suite of language and
+verification tools to model and verify properties of financial
+exchanges and Ethereum smart contracts. Imandra uses a subset of the
+OCaml language excluding features such as exceptions.
+
+  - https://vimeo.com/123693415[Imandra Promo Video]
+  - https://www.youtube.com/watch?v=xeg_Q5uN73Q[Towards Imandra
+Contracts: Formal verification for Ethereum]. Grant Passmore. 2015.
+
+=== Ivy (by https://chain.com/[Chain])
+
+Ivy is a programming language for the Chain Protocol / Virtual
+Machine. (Similar to how Solidity is the language for Ethereum.)
+
+- https://www.youtube.com/watch?v=0dmZNm5G2WI[Chain Presents: IVY]. Dan
+  Robinson and Oleg Andreev. 2016.
+
+=== KolibriFX
+
+http://kolibrifx.com/[KolibriFX] has a language for defining foreign
+exchange (FX) trading strategies for execution on their cloud trading
+platform.
+
+=== MLFi (by http://lexifi.com[LexiFi])
+
+http://www.lexifi.com/product/technology/contract-description-language[MLFi]
+is the OCaml-based contract modeling language underlying LexiFi's
+pricing and operations management solutions. The language is based on
+combinators which allow contracts and market scenarios to be easily
+composed and analysed:
+
+  - http://doi.acm.org/10.1145/351240.351267[Composing Contracts: An Adventure in Financial Engineering]. Simon Peyton Jones, Jean-Marc Eber, and Julian Seward. ICFP '00: Proceedings of the Fifth ACM SIGPLAN International Conference on Functional Programming, 2000.
+
+ - http://conal.net/papers/functional-images/fop-conal.pdf[How to
+   Write a Financial Contract]. Simon Peyton Jones and Jean-Marc
+   Eber. 2003.
+
+  - http://www.lexifi.com/files/resources/MLFiPresentation.ppt[Compositional Description, Valuation, and Management of Financial Contracts: The MLFi Language]. Jean-Marc Eber. 2003.
+
+  - http://www.lexifi.com/files/resources/Cambridge_lexifi.pdf[Describing, Manipulating and Pricing Financial Contracts: The MLFi Language]. Jean-Marc Eber. 2005.
+
+  - http://esop09.pps.univ-paris-diderot.fr/talk-eber.pdf[The
+  Financial Crisis, a Lack of Contract Speciﬁcation Tools: What Can
+  Finance Learn from Programming Language Design?]. Jean-Marc
+  Eber. ESOP '09: 18th European Symposium on Programming. 2009.
+
+3rd-party blog posts and papers:
+
+  - http://www.pa-ba.net/pubs/entries/bahr14nwpt.html[Towards
+    Certified Management of Financial Contracts]. Patrick Bahr, Jost
+    Berthold, and Martin Elsman. NWPT '14: 26th Nordic Workshop on
+    Programming Theory. 2014.
+
+  - https://falconair.github.io/2015/01/30/composingcontracts.html[Adventures in financial and software
+    engineering]. Shahbaz
+    Chaudhary. 2015.
+
+=== Money
+
+https://github.com/lambdista/money[Money] is a Scala DSL for
+money-related operations. The language automatically performs
+conversions between currencies according to exchange rates specified
+at run-time.
+
+===  Mu (by https://www.sc.com/en/index.html[Standard Chartered Bank])
+
+A strict variant of Haskell with other modifications (e.g., no support
+for recursion by default) to make it more accessible to end-user
+programmers.
+
+ - https://www.youtube.com/watch?v=hgOzYZDrXL0#t=1281[Pragmatic
+   Haskell]. Lennart Augustsson. 2011.
+
+[[paradise]]
+=== Paradise (by http://credit-suisse.com[Credit Suisse])
+
+Paradise is a DSL embedded in Haskell for expressing computation
+typically modeled in Excel. Unlike calculators developed in Excel,
+Paradise components are reusable and retargettable
+(e.g., at both C# and Excel).
+
+ - http://doi.acm.org/10.1145/1411204.1411236[Paradise: A Two-Stage DSL Embedded in Haskell]. Lennart Augustsson, Howard Mansell, and Ganesh Sittampalam. ICFP '08: Proceedings of the 13th ACM SIGPLAN International Conference on Functional Programming, 2008. http://www.earth.li/~ganesh/research/paradise-icfp08/talk.pdf[Slides].
+
+=== Pension Workbench (by http://www.capgemini.com/[Capgemini] and http://www.intentsoft.com/[Intentional Software])
+
+The
+http://www.intentsoft.com/overview/case-study-financial-services/[Capgemini
+Pension Workbench] built with Intentional Software's Language
+Workbench technology enables actuaries and pension analysts to specify
+and verify pension plans.
+
+ - http://www.infoq.com/presentations/DSL-Magnus-Christerson-Henk-Kolk[Domain
+   Expert DSLs]. Magnus Christerson and Henk Kolk. QCon London. 2008.
+
+=== Quant DSL (by the http://www.appropriatesoftware.org/[Appropriate Software Foundation])
+
+Quant DSL is Python DSL for expressing financial contracts which can be evaluated against a price process (e.g., multi-market Black-Scholes). It follows the combinator approach outlined in the original MLFi paper, http://doi.acm.org/10.1145/351240.351267[Composing Contracts: An Adventure in Financial Engineering].
+
+  - http://www.appropriatesoftware.org/quant/docs/quant-dsl-definition-and-proof.pdf[Quant DSL Language Guide]
+  - https://github.com/johnbywater/quantdsl/[Source Code on GitHub]
+
+=== Rholang (by https://www.synereo.com/[Synereo])
+
+Rholang (Reflective, Higher-Order process Language) is a smart
+contract language designed for Synereo’s blockchain technology,
+RChain.
+
+  - https://docs.google.com/document/d/1gnBCGe6KLjYnahktmPSm_-8V4jX53Zk10J-KFQl7mf8/edit[The Rholang 0.1 specification]
+  - http://themerkle.com/dao-attack-nullified-using-synereos-smart-contracting-language/[DAO Attack Nullified Using Synereo’s Smart Contracting Language]
+  - http://www.lshift.net/downloads/ex_nihilo_logic.pdf[Namespace logic: A logic for a reflective higher-order calculus]
+  
+=== Risla (by MeesPierson and Capgemini)
+
+Risla is language for describing interest rate products.
+
+ - http://www.st.ewi.tudelft.nl/~arie/papers/ind.pdf[Industrial Applications of ASF+SDF]. M. van den Brand, A. van Deursen, P. Klint, S. Klusener, E. van der Meulen. AMAST '96: Algebraic Methodology and Software Technology. 1996.
+
+  - http://www.st.ewi.tudelft.nl/~arie/papers/risla95/risla95.pdf[An
+    Algebraic Specification of a Language for Describing Financial
+    Products]. B.R.T. Arnold, A. van Deursen, and M. Res.
+    Workshop on Formal Methods Applications in Software Engineering
+    Practice (co-located with ICSE'95). 1995.
+
+  - http://www.st.ewi.tudelft.nl/~arie/papers/stja97.pdf[Domain-Specific
+    Languages versus Object-Oriented Frameworks: A Financial
+    Engineering Case Study]. A. van Deursen. STJA'97: Smalltalk and
+    Java in Industry and Academia. 1997.
+
+ - http://homepages.cwi.nl/~paulk/publications/JSM98.pdf[Little
+   Languages: Little Maintenance?] Arie Van Deursen and Paul
+   Klint. 1998.
+
+=== SciFinance (by http://scicomp.com/[SciComp])
+
+SciFinance is a system embedded in Mathematica for tranforming
+contraints, equations, and financial descriptors into "into highly
+efficient simulation codes" for C/C++/CUDA.
+
+- http://dx.doi.org/10.1145/2088256.2088258[Domain Specific Languages
+  and the Acceleration of Computational Finance]. Elaine
+  Kant. Proceedings of the Fourth Workshop on High Performance
+  Computational Finance (WHPCF). 2011.
+
+- https://www.aaai.org/ojs/index.php/aimagazine/article/view/1559[SciFinance:
+  A Program Synthesis Tool for Financial Modeling]. Robert L. Akers,
+  Ion Bica, Elaine Kant, Curt Randall, Robert L. Young. AI MAGAZINE. 2001.
+
+=== Solidity 
+
+http://solidity.readthedocs.io/en/latest/[Solidity] is a
+Javascript-like language for writing smart contracts for
+https://www.ethereum.org/[Ethereum]. Ethereum is a "decentralized
+platform that runs smart contracts" using blockchain technology.
+
+- http://solidity.readthedocs.io/en/latest/[Solidity documentation]
+
+=== StreamBase (by http://www.streambase.com[StreamBase Systems])
+
+StreamBase is a Java-based graphical DSL for building event-driven
+high frequency trading (HFT) systems.
+
+ - http://www.infoq.com/presentations/DSL-for-High-Frequency-Trading[Complex Event Processing: DSL for High Frequency Trading]. Richard Tibbetts. QCon London. 2011.
+
+=== Stochastic Process Language (SPL)
+
+Stochastic Process Language (SPL) is a language for representing
+stochastic processes for Monte Carlo simulations on parallel hardware.
+
+- http://hiperfit.dk/pdf/WerkAhnfelt_2011-10ab.pdf[Pricing composable
+ contracts on the GP-GPU]. Joakim Ahnfelt-R&oslash;nne and Michael Fl&aelig;n&oslash;
+ Werk. 2011.
+
+=== ThetaML (by http://www.thetaris.com/[Thetaris])
+
+http://www.thetaris.com/wiki/ThetaML_Language_Reference[ThetaML] is a
+payoff description language based on the Theta calculus notation for
+stochastic and sequential processes. The execution of ThetaML is based
+on a virtual timing model; "The values of variables at a given line of
+code are evaluated at the model time associated with that line of
+code."
+
+=== Tranche
+
+https://code.google.com/p/tranche-net/[Tranche] is a DSL for modeling
+structured finance products that compiles to the Common Intermediate
+Language (CIL). The compiler is written in C# and is open-source.
+
+=== Viper
+
+https://github.com/ethereum/viper[Viper] is an experimental contract
+language for the Ethereum platform with additional safety features,
+e.g., strong typing, bounds checking, and upper bounds on Ethereum gas
+required to make a function call.
+
+[[groups]]
+== Industry and Academic Groups
+
+=== Commercial Users of Functional Programming (CUFP)
+
+The annual http://cufp.org/[Commercial Users of Functional Programming
+(CUFP)] workshop is held in conjunction with the International
+Conference on Functional Programming (ICFP).  The website includes
+videos of the talks, including some on finance:
+
+ - http://cufp.org/conference/sessions/2013/edward-kmett-sp-capital-iq-functional-reporting[Functional Reporting]. Edward Kmett (S&P Capital IQ). 2013.
+
+ - http://cufp.org/videos/jane-street-status-report[OCaml at Jane
+   Street Capital]. Yaron Minsky (Jane Street Capital). 2012.
+
+ - http://cufp.org/videos/fmd-functional-development-excel[FMD -
+   Functional development in Excel]. Lee Benfield (Barclays Capital). 2009.
+
+ - http://cufp.org/videos/scala-edf-trading-implementing-domain-specific-language-derivative-p[Scala
+    at EDF Trading. Implementing a Domain-Specific Language for
+    Derivative Pricing with Scala.] Lee Momtahan (EDF Trading). 2009.
+
+ - http://cufp.org/archive/2008/abstracts.html#MansellHoward[Quantitative
+   Finance in F#]. Howard Mansell (Credit Suisse). 2008.
+
+ - http://cufp.org/archive/2007/slides/CyrilSchmidt.ppt[The Default
+   Case in Haskell: Counterparty Risk Calculations at ABN AMRO
+   Bank]. Cyril Schmidt and Anne-Elisabeth Tran
+   Qui. 2007. https://www.youtube.com/watch?v=JxxkmqsBGgk[Talk Video].
+
+ - http://cufp.org/archive/2006/slides/YaronMinsky.pdf[Caml Trader:
+   Adventures of a functional programmer on Wall Street]. Yaron
+   Minsky (Jane Street Capital). 2006.
+
+ - http://cufp.org/archive/2006/slides/HowardMansell.pdf[Why
+   Functional Programming Matters to Credit Suisse]. Howard
+   Mansell (Credit Suisse). 2006.
+
+=== DEVCON1
+
+https://devcon.ethereum.org/[DEVCON1] was the first Ethereum
+developer's conference. https://www.ethereum.org/[Ethereum] is a
+"decentralized platform that runs smart contracts" using blockchain
+technology. The conference program included many talks on language
+design, design patterns, verification, etc.
+
+=== High Performance Computing in Financial IT (HIPERFIT)
+
+http://hiperfit.dk[HIPERFIT] is a collaboration between the
+http://www.ku.dk/english[University of Copenhagen] and members of the
+Danish financial industry. The
+http://hiperfit.dk/publications.html[publications] page includes many
+papers related to domain-specific languages for finance.
+
+ - http://www.gsdp.eu/uploads/tx_conturttnews/Berthold_-_Domain-Specific_Languages_for_Finance.pdf[Domain-Specific
+Languages for Finance: DSL Research in the HIPERFIT Research Center]. Jost
+Berthold. 2011.
+
+=== Smart Contracts Symposium
+
+The http://www.digitalchamber.org/smart-contracts-symposium.html[Smart Contracts Symposium],
+organized by the Chamber of Digital Commerce was held on December 5, 2016 in New York City. Talks included:
+
+- https://www.youtube.com/watch?v=v_-mxyN4pcY[Keynote: Nick Szabo]
+- https://www.youtube.com/watch?v=k5KdKip1PFI[Panel: Code is Law]
+- https://www.youtube.com/watch?v=0dmZNm5G2WI[Ivy: A New Language for Smart Contracts]
+- https://www.youtube.com/watch?v=dI554SDAW1c[Panel: Platforms, Applications & Innovation]
+
+=== Object Management Group (OMG) Financial Domain Task Force
+
+The http://fdtf.omg.org/[Object Management Group (OMG) Financial
+Domain Task Force] is an industry group aimed at helping companies
+manage their financial data assets. The FDTF partners with standards
+organizations to help develop standards; a summary of the FDTF's
+activities can be found at:
+http://fdtf.omg.org/Standards-Applications-Consumers.pdf.
+
+[[other]]
+== Other Resources
+
+http://ceur-ws.org/Vol-750/yrs06.pdf[A Software Language Approach to
+Derivative Contracts in Finance]. Jean-Marie Gaillourdet. 2006.
+
+http://www.slideshare.net/ChaminNalindaLokuGam/domain-specific-language-for-specify-operations-of-a-central-counterpartyccp-59866599[Domain
+Specific Language for Specifying Operations of a Central Counterparty]. 
+Chamin Nalinda Loku Gam Hewage. 2016.
+
+http://www.infoq.com/presentations/fields-business-natural-languages-ruby[Business Natural Languages Development in Ruby]. Jay Fields. QCon. 2008.
+
+https://www.youtube.com/watch?v=hKcOkWzj0_s[Caml Trading]. Yaron
+Minsky. 2012.
+
+http://www.diku.dk/~simonsen/papers/j6.pdf[Compositional Speciﬁcation
+of Commercial Contracts]. Jesper Andersen et al. International Journal
+on Software Tools for Technology Transfer. 2006.
+
+http://nvidia.fullviewmedia.com/gtc2013/0321-211B-S3369.html[Domain
+Specific Languages for Financial Payoffs]. Matthew Leslie (Bank of
+America Merrill Lynch). GPU Technology Conference. 2013. http://on-demand.gputechconf.com/gtc/2013/presentations/S3369-Domain-Specific-Languages-Financial-Payoffs.pdf[Slides].
+
+http://skillsmatter.com/podcast/scala/fsharp-finance[F# Domain Specific Languages for Finance]. Tomas Petricek. 2012.
+
+http://mss3.libraries.rutgers.edu/dlr/outputds.php?pid=rutgers-lib:23837&mime=application/pdf&ds=PDF-1[A Generic Domain Specific Language for Financial Contracts]. Anupam Mediratta. Masters Thesis. 2007
+
+http://link.springer.com/chapter/10.1007%2F978-3-540-39866-0_2[Linear
+Types for Cashflow Reengineering]. Torben Æ Mogensen. Perspectives of
+System Informatics. 2003.
+
+http://registration.gputechconf.com/quicklink/ez0yVPI[GPU Technology
+Conference 2013 Financial Track]. Video recordings and slides on
+programming/using GPUs for financial applications.
+
+http://www.slideshare.net/jonathan.felch/groovy-finance[Groovy
+Finance: Grid Computing and Computational Finance]. Jonathan
+Felch. GR8Conf. 2009.
+
+http://www.slideshare.net/jonathan.felch/cme-grouppresentation-final[Groovy
+on the Trading Desk]. Jonathan Felch (Volant Trading LLC). 2010.
+
+http://dl.acm.org/citation.cfm?id=2041462[Modeling Islamic Finance
+Knowledge for Contract Compliance in Islamic Banking]. Aziza
+Mamadolimova, Norbaitiah Ambiah, and Dickson Lukose. KES'11:
+International Conference on Knowledge-Based and Intelligent
+Information and Engineering Systems. 2011.
+
+http://dl.acm.org/citation.cfm?doid=260111.260284[OO Technology In
+Large Financial Institutions (Workshop Report)]. Chris Laffra. OOPSLA
+'95: Object-Oriented Programming systems, Languages, and
+Applications. 1995.
+
+Coverage and commentary of the https://www.sec.gov/[SEC's] 2010 proposal to require Python contract
+descriptions:
+http://wadler.blogspot.co.uk/2010/04/bull-bear-and-python.html[Philip
+Wadler], http://lambda-the-ultimate.org/node/3922[Lambda the
+Ultimate],
+http://jrvarma.wordpress.com/2010/04/16/the-sec-and-the-python/[Jayanth R. Varma]

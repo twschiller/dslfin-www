@@ -1,0 +1,13 @@
+:page-title: Financial Domain-Specific Languages Workshop Community
+:description: Mailing list and calendar for the domain-specific languages for financial systems workshop community.
+:keywords: finance, financial, trading, domain specific languages, domain-specific languages, DSLs, DSLFIN, mailing list, calendar 
+
+== DSLFIN Community Mailing List and Calendar
+
+We maintain a https://groups.google.com/forum/\#!forum/dslfin[Google
+Group] to discuss financial DSLs and related topics. If you are
+interested in or are working with financials DSLs, we invite you to
+https://groups.google.com/forum/\#!forum/dslfin[join the group].
+
+pass::[<iframe src="https://www.google.com/calendar/embed?src=eobe1tc38l8ahjlul3v5i4bu94%40group.calendar.google.com&ctz=America/New_York" style="border: 0" width="600" height="400" frameborder="0" scrolling="no"></iframe>]
+
