@@ -6,8 +6,7 @@
 == Financial Domain-Specific Language Listing
 
 The goal of this page is to provide a comprehensive listing of
-financial domain-specific languages and resources. Please send additional
-resource suggestions to mailto:tschiller@finlingua.com[Todd Schiller].
+financial domain-specific languages and resources. Please submit additional resources via https://github.com/twschiller/dslfin-www/[GitHub].
 
 === Actulus Modeling Language (AML)
 
@@ -250,6 +249,15 @@ and verify pension plans.
 
  - http://www.infoq.com/presentations/DSL-Magnus-Christerson-Henk-Kolk[Domain
    Expert DSLs]. Magnus Christerson and Henk Kolk. QCon London. 2008.
+
+
+=== Pyramid
+
+Pyramid is a Racket DSL for writing smart contracts for the Ethereum Virtual Machine.
+
+ - https://www.michaelburge.us/2017/11/28/write-your-next-ethereum-contract-in-pyramid-scheme.html[Write your next Ethereum Contract in Pyramid Scheme]
+ - https://www.michaelburge.us/2018/05/15/ethereum-chess-engine.html[DSLs for Ethereum Contracts]
+
 
 === Quant DSL (by the http://www.appropriatesoftware.org/[Appropriate Software Foundation])
 
