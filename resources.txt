@@ -179,27 +179,25 @@ http://kolibrifx.com/[KolibriFX] has a language for defining foreign
 exchange (FX) trading strategies for execution on their cloud trading
 platform.
 
-=== Marlowe (by https://iohk.io/en/blog/posts/2020/10/06/marlowe-industry-scale-finance-contracts-for-cardano/ [Input Output])
+=== Marlowe (by https://iohk.io/en/blog/posts/2020/10/06/marlowe-industry-scale-finance-contracts-for-cardano/[Input Output])
 
-https://docs.cardano.org/en/latest/marlowe/marlowe-explainer.html [Marlowe] is an embedded Haskell language that targets 
-financial contracts in the style of Peyton Jones et. al. (see MLFi below) on Blockchains. The language alllows contracts 
-to be easily composited and analysed. The current target environemnt is for deveployment to Plutus-Core, a System-F 
-inspired abstract machine that executes contracts on the https://cardano.org/[Cardano Blockcahin] network. 
-A https://alpha.marlowe.iohkdev.io/#/[visual programming playground] environment and documentation makes it easily 
-accessible. Example contracts have been developed with the Algorithmic Contract Types Unified Standards (Actus).
+https://docs.cardano.org/en/latest/marlowe/marlowe-explainer.html[Marlowe] is an embedded Haskell language that targets 
+financial contracts in the style of Peyton Jones et. al. (see MLFi
+below) on blockchains. Currently it targets Plutus-Core, a System-F
+inspired abstract machine that executes contracts on the
+https://cardano.org/[Cardano Blockchain] network. It includes a
+https://alpha.marlowe.iohkdev.io/#/[visual programming playground].
+Example contracts have been developed with the Algorithmic Contract Types Unified Standards (Actus).
 
+- https://doi.org/10.1007/978-3-030-54455-3_35[Marlowe: Implementing and Analysing Financial Contracts on Blockchain]. Lamela Seijas P., Nemish A., Smith D., Thompson S. In: Bernhard M. et al. (eds) Financial Cryptography and Data Security. FC 2020. Lecture Notes in Computer Science, vol 12063. Springer, Cham. 
 
-- https://doi.org/10.1007/978-3-030-54455-3_35 [Marlowe: Implementing and Analysing Financial Contracts on Blockchain]. Lamela Seijas P., Nemish A., Smith D., Thompson S. In: Bernhard M. et al. (eds) Financial Cryptography and Data Security. FC 2020. Lecture Notes in Computer Science, vol 12063. Springer, Cham. 
-
- https://doi.org/10.1007/978-3-030-61467-6_11 [Efficient Static Analysis of Marlowe Contracts]. Lamela Seijas P., Smith D., Thompson S. In: Margaria T., Steffen B. (eds) Leveraging Applications of Formal Methods, Verification and Validation: Applications. ISoLA 2020. Lecture Notes in Computer Science, vol 12478. Springer, Cham.
-
-- http://doi.acm.org/10.1145/351240.351267[Composing Contracts: An Adventure in Financial Engineering]. Simon Peyton Jones, Jean-Marc Eber, and Julian Seward. ICFP '00: Proceedings of the Fifth ACM SIGPLAN International Conference on Functional Programming, 2000.
+- https://doi.org/10.1007/978-3-030-61467-6_11[Efficient Static Analysis of Marlowe Contracts]. Lamela Seijas P., Smith D., Thompson S. In: Margaria T., Steffen B. (eds) Leveraging Applications of Formal Methods, Verification and Validation: Applications. ISoLA 2020. Lecture Notes in Computer Science, vol 12478. Springer, Cham.
 
 Talks:
 
-- https://www.youtube.com/watch?v=RhXlOdNyGn8 [Financial contracts on Cardano: The ACTUS standard in Marlowe]. Simon Thompson and Dmytro Kondratiuk talk at Cardano 2020 Summit about using the ACTUS standard in building financial contracts with the domain specific language Marlowe. 
+- https://www.youtube.com/watch?v=RhXlOdNyGn8[Financial contracts on Cardano: The ACTUS standard in Marlowe]. Simon Thompson and Dmytro Kondratiuk talk at Cardano 2020 Summit about using the ACTUS standard in building financial contracts with Marlowe
 
-- https://www.youtube.com/watch?v=MpWeg6Fg0t8 [Functional smart contracts on Cardano]. Philip Wadler and Manuel Chakravarty talk at Cardano 2020 Summit  about developing robust, secure, and accessible smart contracts on Cardano using Marlowe and Plutus.
+- https://www.youtube.com/watch?v=MpWeg6Fg0t8[Functional smart contracts on Cardano]. Philip Wadler and Manuel Chakravarty talk at Cardano 2020 Summit about developing robust, secure, and accessible smart contracts on Cardano using Marlowe and Plutus.
 
 === MLFi (by http://lexifi.com[LexiFi])
 
